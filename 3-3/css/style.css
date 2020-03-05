@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+[type="text"]::placeholder {
+  color: orange;
+  font-family: Arial;
+}
+/*::first-letter(::first-letter)*/
+.text::first-letter {
+  color: yellowgreen;
+  font-weight: bold;
+  font-size: 40px;
+}
+.childrens {
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px rgba(150, 245, 221, 0, 6);
+  opacity: 0.5;
+  filter: grayscale(50);
+}
+.childrens:hover {
+  transition: 2s ease-in-out;
+  filter: grayscale(0);
+  opacity: 1;
+  width: 209px;
+  height: 150px;
+}
+/*vh & vw*/
+/*this has to to with main text box*/
+.main-text {
+  background-color: pink;
+  font-size: 2rem;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 26%;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  width: 25vw;
+  height: 100vh;
+  background-color: orange;
+}
+.form-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  background-color: purple;
+}
+form {
+  display: inline-block;
+  text-align: center;
+}
+.text-image {
+  text-align: center;
+  background-color: yellow;
+}
+.hallo {
+  text-align: center;
+  background-color: green;
+}
+.hallo:first-letter {
+  color: rgb(205, 73, 50);
+  font-weight: bold;
+  font-size: 40px;
+}
+.last-image {
+  /* margin: 0 auto; */
+  width: 100vw;
+  text-align: center;
+}
+.last-image img {
+  width: 50vw;
+  border-radius: 20% 50% 90%;
+}

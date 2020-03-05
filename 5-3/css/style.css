@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+}
+.main-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  background-image: url(../img/unnamed.gif);
+  background-repeat: repeat-x, no-repeat;
+  background-position: center;
+  background-size: 80rem, cover;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.ex1 {
+  border: 8px black dashed;
+  padding: 20px;
+  background-image: url(../img/sky.gif);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.ex2 {
+  border: 8px black dashed;
+  padding: 20px;
+  background-image: url(../img/sky.gif);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+.ex3 {
+  border: 8px black dashed;
+  padding: 20px;
+  background-image: url(../img/sky.gif);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+.ex4 {
+  border: 8px black dashed;
+  padding: 20px;
+  color: transparent;
+  background-image: url(../img/sky.gif);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.ex5 {
+  background-image: url(../img/unnamed.gif);
+  background-size: 55rem;
+  background-position: center;
+  background-attachment: fixed;
+}
