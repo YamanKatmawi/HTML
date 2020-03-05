@@ -1,0 +1,25 @@
+header {
+  background-color: blue;
+  color: red;
+}
+nav li {
+  display: inline;
+  color: blue;
+  background-color: red;
+}
+main {
+  color: blue;
+  background-color: yellow;
+}
+article {
+  color: blue;
+  background-color: hotpink;
+}
+footer {
+  color: red;
+  background-color: rosybrown;
+}
+h1 {
+  color: red;
+  background-color: blue;
+}

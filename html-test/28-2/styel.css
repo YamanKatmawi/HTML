@@ -1,0 +1,53 @@
+body {
+  background-color: blue;
+  color: brown;
+}
+
+p {
+  font-size: 2rem;
+}
+h1 {
+  color: white;
+}
+p {
+  color: orange;
+}
+a {
+  font-size: xx-large;
+  color: black;
+}
+label {
+  font-size: xx-large;
+  color: black;
+}
+input {
+  font-size: xx-large;
+}
+td {
+  font-size: 20px;
+}
+li {
+  font-size: xx-large;
+  color: black;
+}
+tr {
+  font-size: xx-large;
+}
+.sq {
+  background-color: lightgreen;
+  border: 50px rgb(223, 10, 10) solid;
+  width: 25px;
+}
+.cr {
+  margin: 3px;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border: 2px black solid;
+  border-radius: 50%;
+}
+.sp-cl {
+  width: 50px;
+  background-color: lightgreen;
+  border: 50px red solid;
+}

@@ -1,0 +1,52 @@
+div table tr td {
+  border: 1px solid;
+  /* background-color: black; */
+  width: 100px;
+  height: 100px;
+}
+/* tr:nth-child(1) td:nth-child(2n-1) {
+  background-color: white;
+}
+tr:nth-child(2) td:nth-child(2n-2) {
+  background-color: white;
+}
+tr:nth-child(3) td:nth-child(2n-1) {
+  background-color: white;
+}
+tr:nth-child(5) td:nth-child(2n-1) {
+  background-color: white;
+}
+tr:nth-child(7) td:nth-child(2n-1) {
+  background-color: white;
+}
+tr:nth-child(8) td:nth-child(2n-2) {
+  background-color: white;
+}
+tr:nth-child(4) td:nth-child(2n-2) {
+  background-color: white;
+}
+tr:nth-child(6) td:nth-child(2n-2) {
+  background-color: white;
+} */
+
+table tr:nth-child(odd) :nth-child(even) {
+  background-color: black;
+}
+table tr:nth-child(even) :nth-child(odd) {
+  background-color: black;
+}
+/* tr :nth-last-child(odd) td :nth-last-child(2n-2) {
+  background-color: black;
+} */
+/* tr :nth-last-child(even) {
+  background-color: white;
+}
+td :nth-child(odd) {
+  background-color: yellow;
+}
+td :nth-last-child(even) {
+  background-color: black;
+} */
+/* tr:nth-last-child(even) td :nth-last-child(odd) {
+  background-color: black;
+} */

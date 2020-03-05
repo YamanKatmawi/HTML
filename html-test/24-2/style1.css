@@ -1,0 +1,13 @@
+body {
+  background-color: pink;
+  color: red;
+}
+h1 {
+  color: blue;
+}
+#down {
+  color: black;
+}
+ul {
+  list-style: none;
+}
