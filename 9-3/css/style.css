@@ -1,0 +1,53 @@
+/* typography */
+
+/* font-family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Oswald", sans-serif;
+  src: url(../font/Oswald-VariableFont_wght.ttf);
+}
+h1 {
+  font-family: sans-serif;
+  font-family: "Oswald", sans-serif; /* this is font from google font */
+  font-size: 2rem;
+}
+div {
+  font-size: 20px;
+}
+/* font-size */
+p {
+  font-size: 2em;
+  font-style: unset;
+  font: italic 2rem "Arial";
+  font-family: "Oswald", sans-serif;
+  line-height: 2em;
+  text-align: center;
+}
+.p2 {
+  font-size: 2em;
+  font-style: italic 10deg;
+  color: blue;
+  font-weight: bold;
+}
+/* font-style */
+
+/* font-weight */
+
+/* 100-900 */
+
+/* font shorthand
+font:italic 1.2em "fira sans",serif; */
+
+/* em and rem */
+
+/* line-height */
+
+/* text-align */
+
+/* @font-face */
