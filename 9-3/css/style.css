@@ -12,10 +12,21 @@
   font-family: "Oswald", sans-serif;
   src: url(../font/Oswald-VariableFont_wght.ttf);
 }
+:root {
+  font-size: 16px;
+  --color-font: pink;
+  --pading-main-text: 2px 2px;
+}
 h1 {
   font-family: sans-serif;
   font-family: "Oswald", sans-serif; /* this is font from google font */
   font-size: 2rem;
+  color: var(--color-font);
+  padding: var(--pading-main-text);
+  /* direction: rtl; */
+  writing-mode: vertical-rl;
+  /* text-orientation: upright; */
+  text-shadow: 2px 2px 2px black;
 }
 div {
   font-size: 20px;
@@ -27,17 +38,51 @@ p {
   font: italic 2rem "Arial";
   font-family: "Oswald", sans-serif;
   line-height: 2em;
-  text-align: center;
+  text-align: start;
+  font-stretch: ultra-condensed;
+  background-color: gainsboro;
 }
 .p2 {
   font-size: 2em;
   font-style: italic 10deg;
   color: blue;
   font-weight: bold;
+  font-stretch: extra-condensed;
 }
+.p3 {
+  font-style: initial;
+  font-size: xxx-large;
+  color: orange;
+  background-color: rebeccapurple;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-stretch: condensed;
+  word-break: keep-all;
+}
+.p4 {
+  font-style: inherit;
+  font-size: medium;
+  color: chartreuse;
+  background-color: darkblue;
+  font-family: cursive;
+  font-variant: initial;
+  font-weight: bold;
+  text-indent: 2rem;
+  word-spacing: 2px;
+}
+.p5 {
+  font-style: italic;
+  font-size: 20px;
+  color: sienna;
+  background-color: papayawhip;
+  font-family: emoji;
+  font-weight: bolder;
+}
+
 /* font-style */
 
 /* font-weight */
+/* text-transform */
 
 /* 100-900 */
 
