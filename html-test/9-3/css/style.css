@@ -1,0 +1,18 @@
+.p1 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+  word-spacing: 1px;
+  text-transform: lowercase;
+}
+.p2 {
+  font-style: unset;
+}
+.p3 {
+  font-size: 1em;
+  font-style: italic;
+}
+i {
+  color: red;
+  font-size: xx-large;
+}
