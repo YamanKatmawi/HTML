@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.birds {
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+.image1 {
+  width: 40vw;
+  height: 40vh;
+  border: black 3px;
+  z-index: 0;
+}
+.image2 {
+  width: 40vw;
+  height: 40vh;
+  border: black 3px;
+  z-index: 1;
+}
+.image3 {
+  width: 40vw;
+  height: 40vh;
+  border: black 3px;
+  z-index: 2;
+}
+.image4 {
+  width: 40vw;
+  height: 40vh;
+  border: black 3px;
+  z-index: 3;
+}
+.image1:hover {
+  transform: rotate(50deg);
+}
+.image2:hover {
+  transform: rotate(50deg);
+}
+.image3:hover {
+  transform: rotate(50deg);
+}
+.image4:hover {
+  transform: rotate(50deg);
+}
