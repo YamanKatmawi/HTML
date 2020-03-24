@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  width: 200px;
+  border: 2px solid;
+  position: absolute;
+  left: -200px;
+  transition: all 3s;
+  top: 10px;
+  background-color: white;
+}
+#menu {
+  font-size: xx-large;
+  background-color: silver;
+  border: 3px solid gray;
+}

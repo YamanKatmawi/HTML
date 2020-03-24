@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Menu</title>
+    <style>
+      #menu {
+        color: red;
+      }
+    </style>
+  </head>
+  <body id="appBody">
+    <div id="menu" onclick="burgerMenu()">&#x02261; Menu</div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quos fugit
+      voluptates ex officia, minus deleniti accusantium id tenetur facere.
+    </p>
+    <ul id="menuList">
+      <li>Home</li>
+      <li>City</li>
+      <li>About</li>
+    </ul>
+
+    <script>
+      console.log("Hi, this is menu");
+      // appBody.style.backgroundColor = "red";
+      function burgerMenu() {
+        menu.style.color = "blue";
+        // var menuElemnt = menuList.style.left;
+        if (menuList.style.left == "0px") {
+          menuList.style.left = "-200px";
+
+          console.log("if", menuList.style.left);
+        } else {
+          menuList.style.left = 0;
+          console.log("else", menuList.style.left);
+        }
+      }
+    </script>
+  </body>
+</html>
