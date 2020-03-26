@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .top container {
+  border: 10px black solid;
+  width: 100vw;
+  height: 10vh;
+} */
+.left-menu {
+  border: 1px black solid;
+  width: 100vw;
+  height: 5vh;
+  color: white;
+  background-color: red;
+  text-align: left;
+  font-size: x-large;
+  justify-content: space-between;
+  list-style: none;
+  position: absolute;
+  display: flex;
+}
