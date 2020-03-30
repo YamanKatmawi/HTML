@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title></title>
+    <title>Menu-Js</title>
   </head>
   <body>
+    <button onclick="shMenu()"></button>
     <header>
       <div class="top container">
         <div class="left-menu">
@@ -16,6 +17,16 @@
         </div>
       </div>
     </header>
-    <script></script>
+    <script>
+      const shMenu = () => {
+        console.log("Hi i am function");
+        menuBox.style.display = "none";
+        if (menuBox.style.display == "none") {
+          menuBox.style.display = "block";
+        } else {
+          menuBox.style.display = "none";
+        }
+      };
+    </script>
   </body>
 </html>
